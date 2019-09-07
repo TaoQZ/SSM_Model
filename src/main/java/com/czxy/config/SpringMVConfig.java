@@ -4,10 +4,7 @@ import com.czxy.interceptor.MyInterceptor1;
 import com.czxy.interceptor.MyInterceptor2;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -19,7 +16,7 @@ import javax.annotation.Resource;
 @Configuration
 @ComponentScan("com.czxy.controller")
 @EnableWebMvc
-public class SpringMVConfig extends WebMvcConfigurerAdapter {
+public class SpringMVConfig implements WebMvcConfigurer {
 
     @Resource
 //    @Autowired
