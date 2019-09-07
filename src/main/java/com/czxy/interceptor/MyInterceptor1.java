@@ -16,7 +16,7 @@ public class MyInterceptor1 implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        System.out.println("在Controller方法之前执行1");
+        System.out.println(httpServletRequest.getRequestURI());
         return true;
     }
 

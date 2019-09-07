@@ -25,14 +25,15 @@ public class WebInitializer implements WebApplicationInitializer {
         appliation.register(MyBatisConfig.class);
         appliation.register(SpringMVConfig.class);
         appliation.setServletContext(servletContext);
-
         //2 post乱码配置
         FilterRegistration.Dynamic encodingFilter = servletContext.addFilter("CharacterEncodingFilter", new CharacterEncodingFilter("UTF-8"));
         encodingFilter.addMappingForUrlPatterns(null, true, "/*");
 
         //3 前端控制器
         ServletRegistration.Dynamic springMvcServlet = servletContext.addServlet("springmvc", new DispatcherServlet(appliation));
-        springMvcServlet.addMapping("*.action");
+        // 如果设置成 *.action则虚拟路径会失效
+        springMvcServlet.addMapping("/");
+//        springMvcServlet.addMapping("*.action");
         springMvcServlet.setLoadOnStartup(2);
     }
 
