@@ -2,9 +2,11 @@ package com.czxy.config;
 
 import com.czxy.interceptor.MyInterceptor1;
 import com.czxy.interceptor.MyInterceptor2;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.annotation.Resource;
 
@@ -26,15 +28,27 @@ public class SpringMVConfig implements WebMvcConfigurer {
     private MyInterceptor2 myInterceptor2;
 
     /**
+     * controller 的返回的请求路径的前后缀 WebMvcConfigurer 接口的方法 也可传入自定义的视图解析器
+     * @param registry
+     */
+    @Override
+    public void configureViewResolvers(ViewResolverRegistry registry) {
+        registry.jsp("/WEB-INF/",".jsp");
+//        也可传入自定义的视图解析器
+//        registry.viewResolver(internalResourceViewResolver());
+    }
+
+    /**
      * controller 的返回的请求路径的前后缀
      */
-//    @Bean
-//    public InternalResourceViewResolver internalResourceViewResolver(){
-//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-//        viewResolver.setPrefix("/WEB-INF/jsp/");
-//        viewResolver.setSuffix(".jsp");
-//        return viewResolver;
-//    }
+    @Bean
+    public InternalResourceViewResolver internalResourceViewResolver(){
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setPrefix("/WEB-INF/");
+        viewResolver.setSuffix(".jsp");
+        System.out.println("222222222");
+        return viewResolver;
+    }
 
     /**
      * 添加拦截器
@@ -59,7 +73,6 @@ public class SpringMVConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         System.out.println("添加映射路径");
         registry.addResourceHandler("/upload/**").addResourceLocations("file:D:/temp/upload/");
-//        registry.addResourceHandler("/upload/**").addResourceLocations("file:/upload/");
     }
 
 

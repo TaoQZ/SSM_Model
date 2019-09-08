@@ -19,4 +19,10 @@ public class HelloController {
         return s;
     }
 
+    @RequestMapping("/page")
+    public String page(){
+        System.out.println("page");
+        return "ok";
+    }
+
 }

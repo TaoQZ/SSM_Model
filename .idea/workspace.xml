@@ -6,44 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3e1594-1f32-40fe-aa52-0a7a28c10e4e" name="Default Changelist" comment="更新fast">
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/config/MyBatisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/config/SpringConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/config/SpringMVConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/config/WebInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/controller/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/exception/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/exception/CustomExceptionResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/interceptor/MyInterceptor1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/interceptor/MyInterceptor2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/com/czxy/test/SpringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jackson-core-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jackson-databind-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jsp-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jsqlparser-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/junit-4.13-beta-2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/mapper-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/pagehelper-3.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/lib/servlet-api-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSM_Model/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+    <list default="true" id="ab3e1594-1f32-40fe-aa52-0a7a28c10e4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,10 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="312">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,17 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/WebInitializer.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+            <state relative-caret-position="306">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -139,9 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czxy/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ok.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java" />
       </list>
     </option>
   </component>
@@ -190,8 +151,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local,internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="378" />
-    <option name="y" value="31" />
+    <option name="x" value="353" />
+    <option name="y" value="37" />
     <option name="width" value="1473" />
     <option name="height" value="1042" />
   </component>
@@ -201,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +254,21 @@
             <path>
               <item name="SSM_Model" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM_Model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM_Model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -326,10 +301,24 @@
               <item name="czxy" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SSM_Model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM_Model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM_Model" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -512,7 +501,9 @@
       <workItem from="1567865009096" duration="766000" />
       <workItem from="1567865786960" duration="577000" />
       <workItem from="1567866450222" duration="7000" />
-      <workItem from="1567867104086" duration="7033000" />
+      <workItem from="1567867104086" duration="7267000" />
+      <workItem from="1567909254385" duration="252000" />
+      <workItem from="1567910058579" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1567788233764</created>
@@ -556,17 +547,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567865828794</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="解决虚拟路径问题">
+      <created>1567874223725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567874223725</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20282000" />
+    <option name="totallyTimeSpent" value="23264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1883378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19369973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -576,7 +574,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32647058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26764706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27941176" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -593,7 +591,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.23458445" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.082439676" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.2680965" />
@@ -613,10 +611,10 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="update SpringMvcConfig" />
     <MESSAGE value="update pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
+    <MESSAGE value="解决虚拟路径问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决虚拟路径问题" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/dao/LinkmanMapper.java" />
     <entry file="uml://MAVEN/com.czxy:SSM_Model:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -746,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/exception/CustomException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -781,15 +772,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/json.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/domain/QVo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/json.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/domain/QVo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -803,16 +788,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/z.">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/z.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/z." />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/z.txt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ResourceHandlerRegistry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -883,47 +860,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/upload/zzz.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/upload/zzz.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/WebMvcConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="129" column="66" selection-start-line="129" selection-start-column="66" selection-end-line="129" selection-end-column="66" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/db.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/upload/zzz.bmp" />
+    <entry file="file://$PROJECT_DIR$/target/classes/upload/zzz.bmp" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/WebMvcConfig.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/WebMvcConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/MyBatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -942,15 +883,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/WebInitializer.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="129" column="66" selection-start-line="129" selection-start-column="66" selection-end-line="129" selection-end-column="66" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/interceptor/MyInterceptor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ok.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/ViewResolverRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/SpringMVConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288" />
+        <state relative-caret-position="-432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="306">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -959,23 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/SpringMVConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/czxy/config/WebInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/czxy/config/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="312">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
